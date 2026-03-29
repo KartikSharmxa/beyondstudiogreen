@@ -1,0 +1,48 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#efefef;
+}
+
+.stats-section{
+padding:80px 10%;
+}
+
+.stats-container{
+display:flex;
+justify-content:space-between;
+gap:40px;
+}
+
+.stat-box{
+flex:1;
+}
+
+.stat-box h2{
+font-size:90px;
+font-weight:700;
+color:#000;
+}
+
+.stat-box hr{
+border:none;
+height:1px;
+background:#d0d0d0;
+margin:20px 0;
+}
+
+.stat-box h3{
+font-size:24px;
+margin-bottom:8px;
+}
+
+.stat-box p{
+color:#666;
+font-size:16px;
+line-height:1.5;
+}
