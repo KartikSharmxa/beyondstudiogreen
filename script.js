@@ -1,7 +1,5 @@
 console.log("JS loaded");
 
-
-
 const cards = document.querySelectorAll(".video-card");
 console.log("JS loaded");
 cards.forEach(card => {
